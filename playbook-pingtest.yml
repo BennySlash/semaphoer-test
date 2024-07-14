@@ -1,8 +1,5 @@
 ---
--
-  name: Ping Test
-  become: yes
-  become_user: 1001
+- name: Ping Test
   hosts: local
   become: true
   tasks:
