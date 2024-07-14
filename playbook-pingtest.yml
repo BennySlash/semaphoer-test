@@ -2,7 +2,7 @@
 -
   name: Ping Test
   become: yes
-  become_user: root
+  become_user: 1001
   hosts: local
   become: true
   tasks:
